@@ -1,0 +1,23 @@
+/* Arquivo Menu.css */
+.Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333; /* Cor de fundo do menu */
+    color: white; /* Cor do texto */
+    padding: 10px 0; /* Espaçamento interno vertical */
+    position: relative; /* Posição relativa para alinhar com as logos */
+    top: 60px; /* Ajuste o valor conforme necessário para alinhar com as logos */
+  }
+  
+  .Menu a {
+    text-decoration: none;
+    color: white; /* Cor dos links */
+    margin: 0 10px; /* Espaçamento horizontal entre os links */
+  }
+  
+  /* Estilize os links quando passar o mouse sobre eles, se desejar */
+  .Menu a:hover {
+    text-decoration: underline;
+  }
+  
