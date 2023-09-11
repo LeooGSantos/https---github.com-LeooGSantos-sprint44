@@ -1,0 +1,16 @@
+/* Arquivo Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0; /* Cor de fundo da página */
+    padding: 20px;
+  }
+  
+  .logo {
+    max-width: 200px; /* Largura máxima das imagens */
+    margin-bottom: 20px; /* Espaçamento inferior entre as imagens e o menu */
+  }
+  
+  /* Estilize o menu, seguindo o estilo anterior do Menu.css */
+  
