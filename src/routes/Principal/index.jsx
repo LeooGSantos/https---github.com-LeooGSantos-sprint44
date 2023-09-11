@@ -1,20 +1,32 @@
 // Importações no topo do arquivo
-import React from 'react';
 import { Link } from 'react-router-dom';
+import './Principal.css';
 
 export default function Principal() {
   return (
     <>
-      <div className="pagina-principal">
-        <h1>Seguro Bike da Porto</h1>
-        <h2>Seguro</h2>
-        <p>Uma solução completa que oferece proteção e serviços para você se aventurar sem medo.</p>
-        <button>
+      <div className="quadrado-azul">
+        <div className="quadrado-lado-esquerdo">
+          <h2>Seguro Bike da Porto</h2>
+          <p>Uma solução completa que oferece proteção e serviços para você se aventurar sem medo.</p>
+          <button>
           <Link to="/PlanosSeguro">Cote já</Link>
-        </button>
-        <p>Com o Seguro Bike da Porto Seguro, é pedalar e relaxar.</p>
+          </button>
+        </div>
+        <div className="quadrado-lado-direito">
+          <img src="/public/fhome.jpg" alt="Imagem" />
+        </div>
+      </div>
+      <div className="txt">
+        <p>Com o Seguro Bike da Porto Seguro, é pedalar e relaxar</p>
         <p>Faça o seguro agora!!</p>
       </div>
     </>
   );
 }
+
+
+
+
+ 
+

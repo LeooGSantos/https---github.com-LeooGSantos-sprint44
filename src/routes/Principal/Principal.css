@@ -1,0 +1,25 @@
+/* Arquivo Principal.css */
+.quadrado-azul {
+    display: flex;
+    justify-content: space-between;
+    background-color: #A4E4FE;
+    margin: 100px auto; /* Espaçamento e centralização horizontal */
+    max-width: 1000px; /* Largura máxima do quadrado */
+    padding: 100px;
+    border-radius: 10px; /* Borda arredondada */
+  }
+  
+  .quadrado-lado-esquerdo {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .quadrado-lado-direito {
+    flex: 1;
+    padding: 100px;
+  }
+  
+  .quadrado-lado-direito img {
+    max-width: 80%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+  }
+  
