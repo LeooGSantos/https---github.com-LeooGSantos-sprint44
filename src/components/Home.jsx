@@ -5,16 +5,16 @@ export default function Home() {
   return (
     <div className="home-container">
       <img
-        src="/caminho-da-primeira-imagem.jpg"
+        src="/public/porto.png"
         alt="Logo 1"
         className="logo"
       />
       <img
-        src="/caminho-da-segunda-imagem.jpg"
+        src="/public/fiap.jpg"
         alt="Logo 2"
         className="logo"
       />
-      <Menu />
+      <Menu/>
     </div>
   );
 }
