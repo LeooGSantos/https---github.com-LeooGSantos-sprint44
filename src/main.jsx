@@ -10,19 +10,6 @@ import Principal from './routes/Principal/index.jsx';
 import PlanosSeguro from './routes/PlanosSeguro/index.jsx';
 import RMs from './routes/RMs/index.jsx';
 
-// const Root = () => (
-//   <Router>
-//     <App>
-//       <Switch>
-//         <Route exact path="/Principal" component={Principal} />
-//         <Route path="/Bike" component={Bike} />
-//         <Route path="/FazerSeguro" component={FazerSeguro} />
-//         <Route path="/PlanosSeguro" component={PlanosSeguro} />
-//         <Route path="/RMs" component={RMs} />
-//       </Switch>
-//     </App>
-//   </Router>
-// );
 
 const router = createBrowserRouter(
 [
