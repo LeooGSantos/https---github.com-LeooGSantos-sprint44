@@ -1,0 +1,7 @@
+display: flex;
+    justify-content: space-between;
+    background-color: #A4E4FE;
+    margin: 100px auto; /* Espaçamento e centralização horizontal */
+    max-width: 1000px; /* Largura máxima do quadrado */
+    padding: 100px;
+    border-radius: 10px; /* Borda arredondada */

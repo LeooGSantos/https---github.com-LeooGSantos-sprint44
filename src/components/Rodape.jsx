@@ -1,8 +1,9 @@
-export default function Rodape(){
+import { Link } from 'react-router-dom';
+import './Rodape.css';
 
-    return(
-        <footer>
-            <p>Rodapé</p>
-        </footer>
-    )
-}
+export default function Rodape() {
+  return (
+      <div className="quadrado-azul">
+        <p>rodape</p>
+      </div>
+        )}
