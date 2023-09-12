@@ -1,5 +1,4 @@
 import React from 'react';
-
 function RMs() {
   return (
     <div className="rm-page">
