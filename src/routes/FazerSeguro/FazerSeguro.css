@@ -1,0 +1,77 @@
+/* FazerSeguro.css */
+
+.fazer-seguro-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.lado-esquerdo {
+  width: 40%;
+}
+
+.lado-direito {
+  width: 50%; /* Reduz a largura do formulário */
+  background-color: #f0f0f0;
+  padding: 10px; /* Reduz o padding do formulário */
+  border-radius: 10px;
+}
+
+.lado-direito form {
+  display: flex;
+  flex-direction: column;
+}
+
+.lado-direito label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.lado-direito input {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.lado-direito button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #0046c7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lado-direito button:hover {
+  background-color: #002d86;
+}
+
+.seguro-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.lado-direito p {
+  margin-top: 20px;
+}
+.quadrado-centralizado {
+  width: 50%; /* Largura do quadrado */
+  height: 545px; /* Altura do quadrado */
+  padding: 10px;
+  background-color: #f0f0f0; /* Cor de fundo do quadrado */
+  border-radius: 10px;
+  color: rgb(0, 0, 0); /* Cor do texto */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  text-align: center; /* Centraliza verticalmente */
+  font-size: 18px; /* Tamanho do texto */
+}
+

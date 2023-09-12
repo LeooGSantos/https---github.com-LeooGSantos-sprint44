@@ -9,8 +9,6 @@ export default function Menu() {
         <span> | </span>
         <Link to="/Bike">Bike</Link>
         <span> | </span>
-        <Link to="/FazerSeguro">FazerSeguro</Link>
-        <span> | </span>
         <Link to="/PlanosSeguro">PlanosSeguro</Link>
         <span> | </span>
         <Link to="/RMs">RMs</Link>

@@ -1,0 +1,47 @@
+.planos-seguro-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .quadrados-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre os quadrados */
+  }
+  
+  .quadrado {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Largura dos quadrados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cadastre-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #A4E4FE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .cadastre-button:hover {
+    background-color: #029ad6;
+  }
+  .plano-imagem {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 10px; /* Espaço entre a imagem e o texto */
+  }
+  .quadrado:hover {
+    transform: scale(1.05); /* Aumenta em 5% quando o mouse passar por cima */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+  }
+  

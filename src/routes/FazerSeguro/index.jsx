@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import './FazerSeguro.css'; 
 
 function FazerSeguro() {
   const [marca, setMarca] = useState('');
@@ -11,14 +12,12 @@ function FazerSeguro() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    // Você pode adicionar aqui a lógica para processar os dados do formulário
   };
 
   return (
     <div className="fazer-seguro-page">
-      <div className="lado-esquerdo">
-        <h2>Seguro Bike da Porto</h2>
-        <p>Seguro</p>
+      <div className="quadrado-centralizado">
+      <h2>Seguro Bike da Porto</h2>
       </div>
       <div className="lado-direito">
         <form onSubmit={handleFormSubmit}>
@@ -54,8 +53,6 @@ function FazerSeguro() {
             onChange={(e) => setChassi(e.target.value)}
           />
 
-          <button type="button">Confirmar Número do Chassi</button>
-
           <label htmlFor="tempoPossui">Tempo que Possui a Bicicleta</label>
           <input
             type="text"
@@ -80,7 +77,7 @@ function FazerSeguro() {
             onChange={(e) => setUso(e.target.value)}
           />
 
-          <p>Ao clicar em "Continuar" você confirma os dados.</p>
+          <p>Ao clicar em &quot;Continuar&quot; você confirma os dados.</p>
 
           <button type="submit">Continuar</button>
         </form>
