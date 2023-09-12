@@ -1,23 +1,39 @@
+import '../PlanosSeguro/PlanosSeguro.css';
 function RMs() {
   return (
-    <div className="rm-page">
-      <h2>RMs</h2>
-      <ul>
-        <li>
-          <strong>99533</strong> - Allesson Augusto Silva Perru Oliveira
-        </li>
-        <li>
-          <strong>552178</strong> - Cauã Mongs de Borba
-        </li>
-        <li>
-          <strong>551456</strong> - Guilherme Naoki Hirayama
-        </li>
-        <li>
-          <strong>98912</strong> - Leonardo Gonçalves da Costa Santos
-        </li>
-      </ul>
+    <div className="planos-seguro-page">
+      <div className="quadrados-container">
+        <div className="quadrado">
+          <h2>RM99533</h2>
+          <img src="/public/pedalar-1.jpg" alt="Imagem 1" className="plano-imagem" />
+          <p>Allesson Augusto Silva Perru Oliveira</p>
+        </div>
+
+        <div className="quadrado">
+          <h2>RM552178</h2>
+          <img src="/public/pedalar-2.jpg" alt="Imagem 2" className="plano-imagem" />
+          <p>Cauã Mongs de Borba</p>
+        </div>
+
+        <div className="quadrado">
+          <h2>RM551456</h2>
+          <img src="/public/pedalar-3.png" alt="Imagem 3" className="plano-imagem" />
+          <p>Guilherme Naoki Hirayama</p>
+        </div>
+        <div className="quadrado">
+          <h2>RM98912</h2>
+          <img src="/public/pedalar-3.png" alt="Imagem 3" className="plano-imagem" />
+          <p>Leonardo Gonçalves da Costa Santos</p>
+        </div>
+        <div className="quadrado">
+          <h2>RM551377</h2>
+          <img src="/public/pedalar-3.png" alt="Imagem 3" className="plano-imagem" />
+          <p>Erik Teixeira Barbosa</p>
+        </div>
+      </div>
     </div>
   );
 }
 
 export default RMs;
+
