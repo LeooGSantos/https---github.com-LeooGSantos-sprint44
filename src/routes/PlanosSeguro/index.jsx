@@ -10,7 +10,7 @@ function PlanosSeguro() {
 
       <div className="quadrado">
         <h2>Pedal Leve</h2>
-        <p>Você gosta de pedalar e está buscando um plano de serviços intermediário? O Pedal leve da Porto é para você.</p>
+        <p>Você gosta de pedalar e está buscando um plano de serviços intermediário? O Pedal leve da Porto é para você.</p> 
       </div>
 
       <div className="quadrado">
