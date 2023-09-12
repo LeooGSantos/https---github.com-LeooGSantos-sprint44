@@ -1,23 +1,30 @@
-/* Arquivo Menu.css */
 .Menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0046C7; /* Cor de fundo do menu */
-    color: white; /* Cor do texto */
-    padding: 10px 0; /* Espaçamento interno vertical */
-    position: relative; /* Posição relativa para alinhar com as logos */
-    top: 20px; /* Ajuste o valor conforme necessário para alinhar com as logos */
-  }
-  
-  .Menu a {
-    text-decoration: none;
-    color: white; /* Cor dos links */
-    margin: 0 50px; /* Espaçamento horizontal entre os links */
-  }
-  
-  /* Estilize os links quando passar o mouse sobre eles, se desejar */
-  .Menu a:hover {
-    text-decoration: underline;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A4E4FE;
+  color: white;
+  padding: 10px 0;
+  position: relative;
+  top: 20px;
+}
+
+.Menu a {
+  text-decoration: none;
+  color: white; /* Cor dos links */
+  margin: 0 50px; /* Espaçamento horizontal entre os links */
+  transition: color 0.3s, border 0.3s; /* Adicione uma transição suave de cor e borda */
+}
+
+/* Estilize os links quando passar o mouse sobre eles */
+.Menu a:hover {
+  text-decoration: underline;
+  color: #0046C7; /* Cor diferente ao passar o mouse */
+  border: 1px solid #0046C7; /* Adicione uma borda ao redor dos links */
+  padding: 5px 15px; /* Aumente o preenchimento para destacar ainda mais */
+  border-radius: 5px; /* Adicione uma borda arredondada */
+}
+  .separador {
+  border-top: 1px solid #ccc; 
+  margin: 20px 0; 
+}

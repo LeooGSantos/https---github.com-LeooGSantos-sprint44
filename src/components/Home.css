@@ -7,9 +7,23 @@
   }
   
   .logo {
-    max-width: 200px; /* Largura máxima das imagens */
-    margin-bottom: 20px; /* Espaçamento inferior entre as imagens e o menu */
+    max-width: 100px; /* Largura máxima das imagens */
+    position: absolute; 
+	  left: 50px;
+  }
+  .logo-2 {
+    max-width: 100px; /* Largura máxima das imagens */
+    position: absolute; 
+	  left: 200px;
   }
   
-  /* Estilize o menu, seguindo o estilo anterior do Menu.css */
+  .logos-container {
+  display: flex; /* Cria um contêiner flexível */
+  align-items: center; /* Centraliza verticalmente as logos */
+  }
+
+
+  
+
+
   

@@ -1,25 +1,28 @@
-/* Arquivo Principal.css */
+/* Atualizações no seu arquivo Principal.css */
 .quadrado-azul {
-    display: flex;
-    justify-content: space-between;
-    background-color: #A4E4FE;
-    margin: 100px auto; /* Espaçamento e centralização horizontal */
-    max-width: 1000px; /* Largura máxima do quadrado */
-    padding: 100px;
-    border-radius: 10px; /* Borda arredondada */
-  }
-  
-  .quadrado-lado-esquerdo {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .quadrado-lado-direito {
-    flex: 1;
-    padding: 100px;
-  }
-  
-  .quadrado-lado-direito img {
-    max-width: 80%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
-  }
-  
+  display: flex; /* Use flex para controlar o layout das duas partes */
+  justify-content: space-between;
+  background-color: lightblue;
+  margin: 20px auto;
+  max-width: 1000px; /* Defina a largura máxima para o quadrado azul */
+  border-radius: 10px;
+  overflow: hidden; /* Evita que a imagem ultrapasse o quadrado */
+}
+
+.quadrado-lado-esquerdo {
+  flex: 1; /* Ocupa 50% do espaço à esquerda */
+  padding: 20px;
+}
+
+.quadrado-lado-direito {
+  flex: 1; /* Ocupa 50% do espaço à direita */
+  padding: 20px;
+  display: flex; /* Use flex novamente para controlar o layout dentro do lado direito */
+  justify-content: flex-end; /* Alinha a imagem à direita */
+  align-items: center; /* Centraliza verticalmente a imagem */
+}
+
+.estrada img {
+  max-width: 100%; /* Ajuste a largura da imagem para caber no contêiner */
+  max-height: 100%; /* Ajuste a altura da imagem para caber no contêiner */
+}
