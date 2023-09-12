@@ -15,7 +15,7 @@ function RMs() {
           <strong>551456</strong> - Guilherme Naoki Hirayama
         </li>
         <li>
-          <strong>98912</strong> - Leonardo Gonçalves da Costa Santos
+          <strong>98912</strong> - Leonardo Gonçalves da Costa Santos 
         </li>
       </ul>
     </div>
