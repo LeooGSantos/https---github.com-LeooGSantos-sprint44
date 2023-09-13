@@ -2,6 +2,7 @@ import React from 'react';
 
 function RMs() {
   return (
+    //RM dos integrantes
     <div className="rm-page">
       <h2>RMs</h2>
       <ul>
