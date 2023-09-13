@@ -1,4 +1,4 @@
-/* Atualizações no seu arquivo Principal.css */
+
 .quadrado-azul {
   display: flex;
   justify-content: space-between;
@@ -31,7 +31,7 @@
   width: 30rem;
 }
 
-/* Estilo para o botão "Cote já" */
+
 button {
   background-color: #A4E4FE;
   color: white;
@@ -47,12 +47,12 @@ button:hover {
   background-color: #029ad6;
 }
 
-/* Estilo para o texto abaixo do quadrado */
+
 .txt {
   text-align: center;
-  margin-top: 20px; /* Espaçamento entre o quadrado e o texto */
+  margin-top: 20px; 
 }
 
 .txt p {
-  font-size: 24px; /* Aumenta o tamanho da fonte */
+  font-size: 24px; 
 }

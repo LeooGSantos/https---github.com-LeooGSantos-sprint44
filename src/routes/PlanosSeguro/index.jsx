@@ -1,9 +1,14 @@
 import { Link } from 'react-router-dom';
 import './PlanosSeguro.css';
+import { useMediaQuery } from 'react-responsive';
 
 function PlanosSeguro() {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-width: 768px)' 
+  });
+
   return (
-    <div className="planos-seguro-page">
+    <div className={`planos-seguro-page ${isDesktopOrLaptop ? 'desktop' : 'mobile'}`}>
       <div className="quadrados-container">
         <div className="quadrado">
           <h2>Pedal Essencial</h2>

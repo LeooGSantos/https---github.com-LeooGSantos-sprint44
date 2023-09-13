@@ -1,9 +1,9 @@
-/* Arquivo Bike.css */
+
 div.bike {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh; /* Centraliza verticalmente na tela inteira */
+  height: 20vh; 
 } 
 
 .quadrado-1,
@@ -14,7 +14,7 @@ div.bike {
   background-color: #f0f0f0;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  margin: 0 10px; /* Espaçamento entre os quadrados */
+  margin: 0 10px; 
 }
 
 .quadrado-1 h1,

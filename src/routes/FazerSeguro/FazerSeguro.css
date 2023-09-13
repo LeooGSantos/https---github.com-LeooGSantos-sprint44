@@ -1,4 +1,3 @@
-/* FazerSeguro.css */
 
 .fazer-seguro-page {
   display: flex;
@@ -12,9 +11,9 @@
 }
 
 .lado-direito {
-  width: 50%; /* Reduz a largura do formulário */
+  width: 50%; 
   background-color: #f0f0f0;
-  padding: 10px; /* Reduz o padding do formulário */
+  padding: 10px; 
   border-radius: 10px;
 }
 
@@ -60,18 +59,18 @@
   margin-top: 20px;
 }
 .quadrado-centralizado {
-  width: 50%; /* Largura do quadrado */
-  height: 545px; /* Altura do quadrado */
+  width: 50%; 
+  height: 545px; 
   padding: 10px;
-  background-color: #f0f0f0; /* Cor de fundo do quadrado */
+  background-color: #f0f0f0; 
   border-radius: 10px;
-  color: rgb(0, 0, 0); /* Cor do texto */
+  color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto; /* Centraliza horizontalmente */
-  text-align: center; /* Centraliza verticalmente */
-  font-size: 18px; /* Tamanho do texto */
+  margin: 0 auto; 
+  text-align: center; 
+  font-size: 18px;
 }
 

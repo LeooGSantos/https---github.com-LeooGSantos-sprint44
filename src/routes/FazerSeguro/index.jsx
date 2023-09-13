@@ -17,7 +17,7 @@ function FazerSeguro() {
   return (
     <div className="fazer-seguro-page">
       <div className="quadrado-centralizado">
-      <h2>Seguro Bike da Porto</h2>
+        <h2>Seguro Bike da Porto</h2>
       </div>
       <div className="lado-direito">
         <form onSubmit={handleFormSubmit}>
@@ -77,7 +77,7 @@ function FazerSeguro() {
             onChange={(e) => setUso(e.target.value)}
           />
 
-          <p>Ao clicar em &quot;Continuar&quot; você confirma os dados.</p>
+          <p>Ao clicar em "Continuar" você confirma os dados.</p>
 
           <button type="submit">Continuar</button>
         </form>
