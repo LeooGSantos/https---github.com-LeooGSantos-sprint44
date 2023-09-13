@@ -5,6 +5,7 @@ import Rodape from './components/Rodape.jsx'
 
 function App(){
 
+  //Formatação da página principal
   return(
     <>
       <Menu/>
