@@ -1,6 +1,7 @@
 import React from 'react';
 
 function PlanosSeguro() {
+  //Página em que que o cliente escolherá a forma de seguro
   return (
     <div className="planos-seguro-page">
       <div className="quadrado">

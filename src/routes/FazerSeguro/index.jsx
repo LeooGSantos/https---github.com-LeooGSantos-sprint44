@@ -11,7 +11,7 @@ function FazerSeguro() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    // Você pode adicionar aqui a lógica para processar os dados do formulário
+    // Você pode adicionar aqui a lógica para processar os dados do formulário.
   };
 
   return (

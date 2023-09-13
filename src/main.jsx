@@ -9,6 +9,7 @@ import Principal from './routes/Principal/index.jsx';
 import PlanosSeguro from './routes/PlanosSeguro/index.jsx';
 import RMs from './routes/RMs/index.jsx';
 
+//Rota das páginas.
 const Root = () => (
   <Router>
     <App>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Bike() {
+  //Página do cliente para ver suas bicicletas
   return (
     <div className="bike-page">
       <h1>Fazer Seguro</h1>
