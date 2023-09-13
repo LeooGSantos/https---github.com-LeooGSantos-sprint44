@@ -1,50 +1,44 @@
-/* Adicione estas regras CSS no seu arquivo PlanosSeguro.css */
-.bike-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .quadrado-container {
-    display: flex;
-    justify-content: space-between; /* Para colocar os quadrados um ao lado do outro */
-    width: 100%; /* Para garantir que ocupem a largura máxima */
-    max-width: 600px; /* Defina a largura máxima desejada */
-    margin-top: 20px; /* Espaçamento entre os quadrados e o conteúdo acima */
-  }
-  
-  .quadrado {
-    flex: 1; /* Para igualar o tamanho dos quadrados */
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    margin: 0 10px; /* Espaçamento entre os quadrados */
-  }
-  
-  .quadrado h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .quadrado p {
-    margin-bottom: 10px;
-  }
-  
-  .quadrado button {
-    padding: 10px 20px;
-    background-color: #A4E4FE;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .quadrado button:hover {
-    background-color: #029ad6;
-  }
-  
+/* Arquivo Bike.css */
+div.bike {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Centraliza verticalmente na tela inteira */
+} 
+
+.quadrado-1,
+.quadrado-2 {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 0 10px; /* Espaçamento entre os quadrados */
+}
+
+.quadrado-1 h1,
+.quadrado-2 h1 {
+  font-size: 24px;
+}
+
+.quadrado-1 p,
+.quadrado-2 p {
+  font-size: 18px;
+}
+
+.quadrado-1 button,
+.quadrado-2 button {
+  background-color: #A4E4FE;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.quadrado-1 button:hover,
+.quadrado-2 button:hover {
+  background-color: #029ad6;
+}

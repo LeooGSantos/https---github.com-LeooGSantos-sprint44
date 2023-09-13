@@ -3,7 +3,7 @@ import './Bike.css'
 
 function Bike() {
   return (
-    <div>
+    <div className="bike">
       <div className="quadrado-1">
         <h1>Fazer Seguro</h1>
         <p>Faça seu seguro agora, de forma dinâmica e rápida!</p>
