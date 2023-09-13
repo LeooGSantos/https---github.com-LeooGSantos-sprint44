@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Principal() {
+  //Página principal do site
   return (
     <div className="pagina-principal">
       <h1>Seguro Bike da Porto</h1>
