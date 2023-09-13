@@ -1,26 +1,27 @@
 /* Arquivo Home.css */
 .home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
   
-  .logo {
-    max-width: 100px; /* Largura máxima das imagens */
-    position: absolute; 
-	  left: 50px;
-  }
-  .logo-2 {
-    max-width: 100px; /* Largura máxima das imagens */
-    position: absolute; 
-	  left: 200px;
-  }
+.logo {
+  max-width: 100px;
+  position: absolute; 
+	left: 50px;
+}
+
+.logo-2 {
+  max-width: 100px;
+  position: absolute; 
+	left: 200px;
+}
   
-  .logos-container {
-  display: flex; /* Cria um contêiner flexível */
-  align-items: center; /* Centraliza verticalmente as logos */
-  }
+.logos-container {
+  display: flex;
+  align-items: center; 
+}
 
 
   

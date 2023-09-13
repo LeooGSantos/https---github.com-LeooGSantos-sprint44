@@ -10,7 +10,7 @@
 }
 
 .quadrado-lado-esquerdo {
-  flex: 1; /* Ocupa 50% do espaço à esquerda */
+  flex: 1;
   padding: 20px;
 }
 
@@ -23,6 +23,5 @@
 }
 
 .estrada img {
-  max-width: 100%; /* Ajuste a largura da imagem para caber no contêiner */
-  max-height: 100%; /* Ajuste a altura da imagem para caber no contêiner */
+  width: 30rem;
 }
