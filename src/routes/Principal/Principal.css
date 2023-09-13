@@ -1,27 +1,58 @@
 /* Atualizações no seu arquivo Principal.css */
 .quadrado-azul {
-  display: flex; /* Use flex para controlar o layout das duas partes */
+  display: flex;
   justify-content: space-between;
   background-color: lightblue;
-  margin: 20px auto;
-  max-width: 1000px; /* Defina a largura máxima para o quadrado azul */
-  border-radius: 10px;
-  overflow: hidden; /* Evita que a imagem ultrapasse o quadrado */
+  margin: 50px auto;
+  max-width: 1000px;
+  border-radius: 50px;
+  overflow: hidden;
 }
 
 .quadrado-lado-esquerdo {
   flex: 1;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .quadrado-lado-direito {
-  flex: 1; /* Ocupa 50% do espaço à direita */
+  flex: 1;
   padding: 20px;
-  display: flex; /* Use flex novamente para controlar o layout dentro do lado direito */
-  justify-content: flex-end; /* Alinha a imagem à direita */
-  align-items: center; /* Centraliza verticalmente a imagem */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .estrada img {
   width: 30rem;
+}
+
+/* Estilo para o botão "Cote já" */
+button {
+  background-color: #A4E4FE;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #029ad6;
+}
+
+/* Estilo para o texto abaixo do quadrado */
+.txt {
+  text-align: center;
+  margin-top: 20px; /* Espaçamento entre o quadrado e o texto */
+}
+
+.txt p {
+  font-size: 24px; /* Aumenta o tamanho da fonte */
 }

@@ -2,6 +2,11 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="home-container">
+      {/* Quadrado de cobertura para as logos */}
+      <div className="quadrado-logos">
+        {/* Conteúdo do quadrado de cobertura */}
+      </div>
+
       <div className="logos-container">
         <img
           src="/public/porto.png"
